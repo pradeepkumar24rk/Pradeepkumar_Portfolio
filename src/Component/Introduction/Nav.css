@@ -1,0 +1,47 @@
+.Nav{
+    display:flex;
+    justify-content: space-around;
+    /* margin: 10px; */
+    padding: 10px 34px;
+    
+
+}
+.nav-left{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    gap:2rem;
+}
+.nav-name{
+    font-weight: bold;
+    font-size: 50px;
+}
+.nav-right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: red; */
+    cursor: pointer;
+}
+.nav-list{
+    flex:10;
+}
+.nav-list>ul{
+    display:flex;
+    gap: 1rem;
+    /* margin-right: 4rem; */
+    list-style-type: none;
+    align-items: center;
+}
+.nav-list>ul>li:hover{
+color: var(--blue);
+cursor:pointer;
+}
+.nav-button{
+    flex:2;
+}
+.nav-name>span{
+    color: var(--blue);
+    font-weight: bold;
+    font-size: 50px;
+}

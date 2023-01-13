@@ -1,0 +1,19 @@
+.CountView{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+}
+.CountView>h1{
+    font-size: 2rem;
+    color: var(--blue);
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.view{
+    font-size: 3rem;
+    /* margin-top: 10px; */
+
+}

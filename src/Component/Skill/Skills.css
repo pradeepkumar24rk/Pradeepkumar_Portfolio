@@ -1,0 +1,68 @@
+.Skills{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    /* width: 100vh; */
+    margin-top: 50px;
+}
+.s-head>h1{
+    font-size: 3rem;
+    text-transform: uppercase;
+}
+.cards{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 50px;
+     
+}
+.s-card{
+    box-shadow: rgba(216, 215, 215, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    /* height: 50% */
+    position: relative;
+    width: 150px;
+  height: 181px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10% 30% 50% 70%;
+  background: rgba(198, 198, 198, 0.34);
+  border-bottom: 3px solid rgba(255, 255, 255, 0.440);
+    border-left: 2px  rgba(255, 255, 255, 0.545) outset;
+    box-shadow: -40px 50px 30px rgba(0, 0, 0, 0.280);
+ 
+}
+.s-cards-inner{
+    
+}
+.HTML{
+    --bg-color: #e44f26;
+}
+.CSS{
+    --bg-color: #1673b6;
+}
+.JS{
+    --bg-color: #f8de1a;
+}
+.REACT{
+    --bg-color: #1673b6;
+}
+.JAVA{
+    --bg-color:#e9a761;
+}
+.PHP{
+    --bg-color:rgba(71, 6, 175, 0.76);
+}
+.THREEJS{
+    --bg-color:rgb(70, 69, 69);
+}
+img{
+    border-radius: 50%;
+}
+.s-card:hover{
+    background-color: var(--bg-color);
+    transform: translateY(-5px) scale(1.005) translateZ(0);
+   
+    border-radius: 25% 10%;
+}
